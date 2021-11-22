@@ -7,3 +7,4 @@
 <img src="pics/Assignment 7_ KGP-RISC-6.png" alt=""/>
 <img src="pics/Assignment 7_ KGP-RISC-7.png" alt=""/>
 <img src="pics/Assignment 7_ KGP-RISC-8.png" alt=""/>
+<img src="pics/Assignment 7_ KGP-RISC-9.png" alt=""/>
