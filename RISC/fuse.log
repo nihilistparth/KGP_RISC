@@ -1,0 +1,58 @@
+Running: /opt/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/shashwat/Desktop/coa_final_copy2/KGP_RISC_tb_isim_beh.exe" -prj "/home/shashwat/Desktop/coa_final_copy2/KGP_RISC_tb_beh.prj" "work.KGP_RISC_tb" "work.glbl" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/carryLookaheadAdder.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/hybridAdder.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/writeAddress.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/regFile32x32.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/PC.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/mux.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/ipcore_dir/test_inst_bram.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/ipcore_dir/test_data_bram.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/InstDecode.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/IF_ID.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/branch.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/assignInputs.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/ALU.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/KGP_RISC.v" into library work
+Analyzing Verilog file "/home/shashwat/Desktop/coa_final_copy2/KGP_RISC_tb.v" into library work
+Analyzing Verilog file "/opt/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/home/shashwat/Desktop/coa_final_copy2/KGP_RISC.v" Line 85: Size mismatch in connection of port <rout>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:189 - "/home/shashwat/Desktop/coa_final_copy2/ALU.v" Line 22: Size mismatch in connection of port <c_in>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Fuse Memory Usage: 85100 KB
+Fuse CPU Usage: 980 ms
+Compiling module clockDivide
+Compiling module mux
+Compiling module PC
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module test_inst_bram
+Compiling module IF_ID
+Compiling module PC_incrementor
+Compiling module InstDecode
+Compiling module regFile32x32
+Compiling module assignInputs
+Compiling module carryLookaheadAdder
+Compiling module hybridAdder
+Compiling module ALU
+Compiling module branch
+Compiling module writeAddress
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="artix...
+Compiling module test_data_bram
+Compiling module KGP_RISC
+Compiling module KGP_RISC_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 24 Verilog Units
+Built simulation executable /home/shashwat/Desktop/coa_final_copy2/KGP_RISC_tb_isim_beh.exe
+Fuse Memory Usage: 1173292 KB
+Fuse CPU Usage: 1050 ms
+GCC CPU Usage: 120 ms

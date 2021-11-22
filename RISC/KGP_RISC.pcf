@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Nov 10 15:46:18 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "rout<0>" LOCATE = SITE "V11" LEVEL 1;
+COMP "rout<1>" LOCATE = SITE "V12" LEVEL 1;
+COMP "rout<2>" LOCATE = SITE "V14" LEVEL 1;
+COMP "rout<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "rout<4>" LOCATE = SITE "T16" LEVEL 1;
+COMP "rout<5>" LOCATE = SITE "U14" LEVEL 1;
+COMP "rout<6>" LOCATE = SITE "T15" LEVEL 1;
+COMP "rout<7>" LOCATE = SITE "V16" LEVEL 1;
+COMP "rout<8>" LOCATE = SITE "U16" LEVEL 1;
+COMP "rout<9>" LOCATE = SITE "V17" LEVEL 1;
+COMP "rout<10>" LOCATE = SITE "U17" LEVEL 1;
+COMP "rout<11>" LOCATE = SITE "R18" LEVEL 1;
+COMP "rout<12>" LOCATE = SITE "N14" LEVEL 1;
+COMP "rout<13>" LOCATE = SITE "J13" LEVEL 1;
+COMP "rout<14>" LOCATE = SITE "K15" LEVEL 1;
+COMP "rout<15>" LOCATE = SITE "H17" LEVEL 1;
+SCHEMATIC END;
+

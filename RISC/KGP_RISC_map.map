@@ -1,0 +1,69 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Map Application Log File for Design 'KGP_RISC'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o KGP_RISC_map.ncd KGP_RISC.ngd KGP_RISC.pcf 
+Target Device  : xc7a100t
+Target Package : csg324
+Target Speed   : -3
+Mapper Version : artix7 -- $Revision: 1.55 $
+Mapped Date    : Sun Nov 14 02:33:29 2021
+
+WARNING:LIT:701 - PAD symbol "reset" has an undefined IOSTANDARD.
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 15 secs 
+Total CPU  time at the beginning of Placer: 15 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:1f1ad0f) REAL time: 16 secs 
+
+Phase 2.7  Design Feasibility Check
+ERROR:Place:864 - Incompatible IOB's are locked to the same bank 14
+   Conflicting IO Standards are:
+   IO Standard 1: Name = LVCMOS33, VREF = NR, VCCO = 3.30, TERM = NONE, DIR =
+   OUTPUT, DRIVE_STR = 12
+   List of locked IOB's:
+   	rout<4>
+   	rout<3>
+   	rout<2>
+   	rout<1>
+   	rout<0>
+   	rout<9>
+   	rout<8>
+   	rout<7>
+   	rout<6>
+   	rout<5>
+   	rout<10>
+   	rout<12>
+   	rout<11>
+
+   IO Standard 2: Name = LVCMOS18, VREF = NR, VCCO = 1.80, TERM = NONE, DIR =
+   INPUT, DRIVE_STR = NR
+   List of locked IOB's:
+   	reset
+
+   These IO Standards are incompatible due to VCCO mismatch.
+
+Phase 2.7  Design Feasibility Check (Checksum:1f1ad0f) REAL time: 16 secs 
+
+Total REAL time to Placer completion: 16 secs 
+Total CPU  time to Placer completion: 16 secs 
+ERROR:Pack:1654 - The timing-driven placement phase encountered an error.
+
+Mapping completed.
+See MAP report file "KGP_RISC_map.mrp" for details.
+Problem encountered during the packing phase.
+
+Design Summary
+--------------
+Number of errors   :   2
+Number of warnings :   1

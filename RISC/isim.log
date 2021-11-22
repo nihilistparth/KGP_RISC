@@ -1,0 +1,37 @@
+ISim log file
+Running: /home/shashwat/Desktop/coa_final_copy2/KGP_RISC_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/shashwat/Desktop/coa_final_copy2/KGP_RISC_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/home/shashwat/Desktop/coa_final_copy2/KGP_RISC.v" Line 6.  For instance uut/RF/, width 32 of formal port rout is not equal to width 16 of actual signal rout.
+WARNING:  For instance alu/h/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module KGP_RISC_tb.uut.IMEM.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module KGP_RISC_tb.uut.dm.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "/home/shashwat/Desktop/coa_final_copy2/KGP_RISC.v" Line 6.  For instance uut/RF/, width 32 of formal port rout is not equal to width 16 of actual signal rout.
+WARNING:  For instance alu/h/, width 1 of formal port c_in is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module KGP_RISC_tb.uut.IMEM.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module KGP_RISC_tb.uut.dm.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.

@@ -1,0 +1,41 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle ise
+-dd _ngo -sd ipcore_dir -nt timestamp -uc KGP_RISC.ucf -p xc7a100t-csg324-3
+KGP_RISC.ngc KGP_RISC.ngd
+
+Reading NGO file "/home/shashwat/Desktop/coa_final_copy2/KGP_RISC.ngc" ...
+Loading design module "ipcore_dir/test_inst_bram.ngc"...
+Loading design module "ipcore_dir/test_data_bram.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "KGP_RISC.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:837 - pins 'I' and 'O' on instance 'CD/clk2_INV_0' of type
+   'INV' are both connected to the same signal 'clk2', which forms a ring
+   buffer.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   1
+
+Total memory usage is 450400 kilobytes
+
+Writing NGD file "KGP_RISC.ngd" ...
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   4 sec
+
+Writing NGDBUILD log file "KGP_RISC.bld"...
